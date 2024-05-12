@@ -2,38 +2,85 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What kind of data structure does IDDFS use?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "FIFO Queue",
+        "b": "LIFO Queue (Stack)",
+        "c": "Linked List",
+        "d": "Heap"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Does IDDFS find the shortest path to the goal node?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Always",
+        "b": "Never",
+        "c": "Sometimes"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "It does not find the shortest path always as it does not consider step costs.",
+        "b": "If the step costs are equal, then it will find the shortest path.",
+        "c": "If the step costs are a non decreasing function of the depth of the node, then it will find the shortest path."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What advantage does IDDFS have over DFS (Depth First Search)?",
+      "answers": {
+        "a": "Completeness",
+        "b": "Less Memory Usage (Space Complexity)",
+        "c": "Less Time Complexity"
+      },
+      "explanations": {
+        "a": "Both are complete for finite graphs.",
+        "b": "Both have similary space complexity.",
+        "c": "IDDFS has time complexity of O(b^d) where b is the branching factor and d is the depth of the goal node. DFS has time complexity of O(b^m) where m is the maximum depth of the tree."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "When is IDDFS not complete?",
+      "answers": {
+        "a": "When the goal node is not reachable from the source vertex",
+        "b": "When the state space is infinite",
+        "c": "Either a) or b)",
+        "d": "It is always complete"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In which cases would IDDFS be preferred over DFS?",
+      "answers": {
+        "a": "When memory usage needs to be controlled.",
+        "b": "When the goal node is at a shallow depth and the graph has a high depth.",
+        "c": "When the goal node is at a deep depth and the graph has a high branching factor.",
+        "d": "It is never preffered over DFS."
+      },
+      "explanations": {
+        "a": "Both have similar space complexity",
+        "b": "If the goal node is located at a shallow depth within a graph that has a high depth, IDDFS would be more efficient than DFS in finding the solution, as it would not need to explore the entire depth of the graph.",
+        "c": "The presence of a high branching factor in the graph may impact the efficiency of IDDFS, as it would need to explore more nodes at each depth limit iteration.",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }

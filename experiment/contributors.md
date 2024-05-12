@@ -1,11 +1,12 @@
-EMPTY
-<!-- Remove all lines above this line before making changes to the file -->
 ### Subject Matter Experts
-| SNo. | Name | Email | Institute | ID |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
+| SNo. | Name                | Email                | Institute                                       | ID  |
+| :---:| :------------------ | :------------------- | :--------------------------------------------- | :-- |
+| 1    | Prof. Praveen Paruchuri   | praveen.p@iiit.ac.in | International Institute of Information Technology Hyderabad |    |
+| 2    | Prof. Vikram Pudi   | vikram@iiit.ac.in    | International Institute of Information Technology Hyderabad |    |
+
 
 ### Developers
-| SNo. | Name | Email | Institute | ID |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
+| SNo. | Name        | Email                        | Institute                                          | ID  |
+|------|-------------|------------------------------|-----------------------------------------------------|-----|
+| 1    | Sai Teja | -  | - | 1   |
+| 2    | Dhillu Thambi | dhillu.thambi@research.iiit.ac.in  | International Institute of Information Technology Hyderabad | 1   |
