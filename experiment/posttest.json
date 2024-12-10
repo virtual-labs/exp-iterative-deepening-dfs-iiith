@@ -27,10 +27,10 @@
         "d": "6"
       },
       "explanations": {
-        "a": "",
+        "a": "Depth limit starts from 0.",
         "b": "Depth limit starts from 0.",
-        "c": "",
-        "d": ""
+        "c": "Depth limit starts from 0.",
+        "d": "Depth limit starts from 0."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

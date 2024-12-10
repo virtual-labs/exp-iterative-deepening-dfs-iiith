@@ -1,20 +1,20 @@
 ## Introduction
 
-Iterative Deepening Depth-First Search (IDDFS) is an uninformed search algorithm used for traversing or searching a graph. IDDFS explores the search space iteratively, incrementally increasing the depth limit with each iteration. It combines the benefits of memory requirements of depth-first search with the completeness and optimality of breadth-first search, making it suitable for searching large graphs with unknown depths.
+Iterative Deepening Depth-First Search (IDDFS) is an uninformed search algorithm that is used to explore or search through a graph. The key feature of IDDFS is its iterative approach, where the depth limit is progressively increased during each iteration. This method combines the memory efficiency of Depth-First Search (DFS) with the completeness and optimality properties of Breadth-First Search (BFS). IDDFS is particularly effective for large graphs where the depth is unknown or potentially infinite.
 
 ## Algorithm
 
-The IDDFS algorithm is a depth-limited search strategy that iteratively explores the search space, gradually increasing the depth limit until the goal node is found. It uses depth-first search (DFS) to explore nodes within each depth limit.
+IDDFS is a strategy where a depth-limited search is performed iteratively with increasing depth limits until the goal node is found. The algorithm uses Depth-First Search (DFS) at each iteration but restricts the search to a specific depth.
 
-STEP 1: Initialize the depth limit to 0.
+STEP 1: Set the initial depth limit to 0.
 
-STEP 2: Perform depth-limited depth-first search (DLDFS) with the current depth limit starting from the start node. (In depth-limited DFS, DFS is only performed upto a certain depth limit, beyond which nodes are not considered.)
+STEP 2: Perform a Depth-Limited Depth-First Search (DLDFS) from the starting node, restricting the search to the current depth limit. In DLDFS, the search is confined to a maximum depth, and nodes beyond that depth are not considered.
 
-STEP 3: If the goal node is found during DLDFS, return the path to the goal node.
+STEP 3: If the goal node is encountered during DLDFS, return the path from the start node to the goal node.
 
-STEP 4: If the goal node is not found and there are still nodes to explore, increment the depth limit and repeat steps 2 and 3.
+STEP 4: If the goal node is not found within the current depth limit, increase the depth limit by 1 and repeat steps 2 and 3.
 
-STEP 5: If the goal node is not found and the depth limit exceeds a predefined maximum depth or the maximum depth of the tree, terminate the search.
+STEP 5: If the goal node is not found and the depth limit exceeds a predefined maximum depth or the depth of the tree, terminate the search process.
 
 ## Example
 Reference: Section 3.4.5 of Reference 1
@@ -22,7 +22,7 @@ Reference: Section 3.4.5 of Reference 1
 
 ## Optimality and Completeness
 **Optimality:**
-Like Breadth-First Search, IDDFS is optimal if the path cost is a non-decreasing function of the depth of the node. This is because IDDFS does not take into account the step costs. Since the path cost is non-decreasing with depth, the algorithm will encounter the optimal solution (if it exists) at a shallower depth before exploring deeper levels. 
+Since IDDFS explores the graph level by level (depth by depth), it will always find the shallowest solution first. In other words, it will first find the goal that is closest to the root in terms of depth, as it explores all nodes at depth 0, then depth 1, and so on. IDDFS guarantees that once it finds a solution, that solution is the shallowest possible solution because it explores all nodes at a lower depth before increasing the search depth. 
 
 **Completeness:**
 IDDFS is complete for finite graphs. It exhaustively searches the entire search space, incrementally increasing the depth limit with each iteration until the goal node is found or until the maximum depth limit is reached. As long as the branching factor is finite and the depth limit is sufficient, IDDFS will find a solution if one exists.
