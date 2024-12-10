@@ -19,33 +19,37 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Does IDDFS find the shortest path to the goal node?",
+      "question": "What does the iterative deepening part of IDDFS refer to?",
       "answers": {
-        "a": "Always",
-        "b": "Never",
-        "c": "Sometimes"
+        "a": "The search depth limit is increased incrementally after each iteration.",
+        "b": "IDDFS re-starts the search from the root after each iteration.",
+        "c": "IDDFS uses a breadth-first approach in each iteration.",
+        "d": "IDDFS explores the entire search space before increasing the depth limit."
       },
       "explanations": {
-        "a": "It does not find the shortest path always as it does not consider step costs.",
-        "b": "If the step costs are equal, then it will find the shortest path.",
-        "c": "If the step costs are a non decreasing function of the depth of the node, then it will find the shortest path."
+        "a": "The iterative deepening refers to the fact that the search limit is progressively increased until the goal node is found.",
+        "b": "Although IDDFS does restart the search from the root each time, this is not what the iterative deepening part refers to",
+        "c": "IDDFS uses depth-first search at each level, not breadth-first search.",
+        "d": "IDDFS does not explore the entire search space before increasing the depth limit; it increases the depth incrementally and performs depth-first search at each level."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "What advantage does IDDFS have over DFS (Depth First Search)?",
+      "question": "What is the time complexity of IDDFS in terms of the branching factor (b) and the depth of the goal node (d)?",
       "answers": {
-        "a": "Completeness",
-        "b": "Less Memory Usage (Space Complexity)",
-        "c": "Less Time Complexity"
+        "a": "O(b^d)",
+        "b": "O(d^b)",
+        "c": "O(d * b^d)",
+        "d": "O(b^d * d)"
       },
       "explanations": {
-        "a": "Both are complete for finite graphs.",
-        "b": "Both have similary space complexity.",
-        "c": "IDDFS has time complexity of O(b^d) where b is the branching factor and d is the depth of the goal node. DFS has time complexity of O(b^m) where m is the maximum depth of the tree."
+        "a": "This is the correct answer. IDDFS has a time complexity of O(b^d), where b is the branching factor and d is the depth of the goal node, because at each depth limit, it explores all nodes at that level before moving deeper.",
+        "b": "This is incorrect. The complexity is not d^b, as IDDFS does not explore nodes based on this combination.",
+        "c": "This is incorrect. IDDFS does not have a time complexity of d * b^d.",
+        "d": "This is incorrect. The time complexity is not b^d * d."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
@@ -57,10 +61,10 @@
         "d": "It is always complete"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "IDDFS will not reach the goal node if it is not reachable from the source vertex.",
+        "b": "IDDFS is complete for finite graphs, but not for infinite graphs.",
+        "c": "Both a) and b) are cases where IDDFS is not complete.",
+        "d": "IDDFS is not always complete, as it is not complete for cases where the goal node is not reachable from the source vertex or when the state space is infinite."
       },
       "correctAnswer": "c",
       "difficulty": "intermediate"
