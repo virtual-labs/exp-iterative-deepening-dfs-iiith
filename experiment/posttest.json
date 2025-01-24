@@ -2,38 +2,91 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the space complexity of IDDFS? (Here b is the branching factor, d is the depth of the goal node, and m is the maximum depth of the graph.)",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "O(b^d)",
+        "b": "O(bd)",
+        "c": "O(b+d)",
+        "d": "O(b^m)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Check Space and Time complexity section in the Theory section.",
+        "b": "Check Space and Time complexity section in the Theory section.",
+        "c": "Check Space and Time complexity section in the Theory section.",
+        "d": "Check Space and Time complexity section in the Theory section."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In a graph traversal problem, the goal node is located at a depth of 4. How many iterations of IDDFS would be needed to guarantee finding the goal node?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Depth limit starts from 0.",
+        "b": "Depth limit starts from 0.",
+        "c": "Depth limit starts from 0.",
+        "d": "Depth limit starts from 0."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What happens when visited nodes are not kept track of in IDDFS?",
+      "answers": {
+        "a": "The IDDFS algorithm will still find the optimal solution.",
+        "b": "The IDDFS algorithm may get stuck in an infinite loop.",
+        "c": "The IDDFS algorithm will terminate but may not find the optimal solution.",
+        "d": "The IDDFS algorithm will be faster but may miss some nodes.",
+        "e": "The IDDFS algorithm will not work at all and fail to find any solution."
+      },
+      "explanations": {
+        "a": "",
+        "b": "It will continuously re-visit nodes, since they haven't been marked and therefore closed, causing a loop.",
+        "c": "",
+        "d": "",
+        "e": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Consider the following graph: A->B, A->C, B->D, B->E, C->F. What will be the order of nodes visited in IDDFS starting from node A?",
+      "answers": {
+        "a": "A, B, D, E, C, F",
+        "b": "A, B, C, D, E, F",
+        "c": "A, A, B, D, E, A, A, C, F",
+        "d": "A, A, B, C, A, B, D, E, C, F"
+      },
+      "explanations": {
+        "a": "This is the order of nodes visited in DFS, not IDDFS.",
+        "b": "This is the order of nodes visited in BFS, not IDDFS.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced "
+    },
+    {
+      "question": "Consider the following graph: A->B, A->C, B->D, D->E. How many nodes will be visited before reaching node C in IDDFS and DFS?",
+      "answers": {
+        "a": "IDDFS - 3, DFS - 3",
+        "b": "IDDFS - 3, DFS - 4",
+        "c": "IDDFS - 4, DFS - 3",
+        "d": "IDDFS - 4, DFS - 4"
+      },
+      "explanations": {
+        "a": "IDDFS - A, A, B, C; DFS - A, B, D, E, C",
+        "b": "IDDFS - A, A, B, C; DFS - A, B, D, E, C",
+        "c": "IDDFS - A, A, B, C; DFS - A, B, D, E, C",
+        "d": "IDDFS - A, A, B, C; DFS - A, B, D, E, C"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
