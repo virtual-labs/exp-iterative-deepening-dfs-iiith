@@ -1,0 +1,4 @@
+## Objectives
+- **Understand the Iterative Deepening Depth-First Search algorithm and its iterative nature:** Learn the working principles of the Iterative Deepening Depth-First Search algorithm, focusing on its iterative approach to exploring the search space.
+- **Explore the depth-limited search and iterative deepening:** Understand how IDDFS performs a series of depth-limited searches, gradually increasing the depth limit with each iteration until the goal node is found.
+- **Visualize the search process and path history:** Observe the step-by-step search process of the Iterative Deepening Depth-First Search algorithm on a graph, highlighting the nodes expanded, the path taken, and the depth limit for each iteration.

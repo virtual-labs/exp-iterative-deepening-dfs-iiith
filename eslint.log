@@ -1,0 +1,881 @@
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/js/delta_refresh.js
+   4:6    warning  'canv' is not defined               no-undef
+   4:20   warning  'canv' is not defined               no-undef
+   4:40   warning  'canv' is not defined               no-undef
+   4:55   warning  'canv' is not defined               no-undef
+   5:3    warning  'canv' is not defined               no-undef
+   5:16   warning  'canv' is not defined               no-undef
+   6:3    warning  'canv' is not defined               no-undef
+   6:17   warning  'canv' is not defined               no-undef
+   7:3    warning  'preset' is not defined             no-undef
+  10:9    warning  'type' is not defined               no-undef
+  11:9    warning  'force' is not defined              no-undef
+  13:5    warning  'drawField' is not defined          no-undef
+  16:15   warning  'exist' is not defined              no-undef
+  19:112  warning  'exist' is not defined              no-undef
+  42:66   warning  'visit' is not defined              no-undef
+  43:62   warning  'e' is not defined                  no-undef
+  43:79   warning  'e' is not defined                  no-undef
+  44:65   warning  'visit' is not defined              no-undef
+  44:75   warning  'visit' is not defined              no-undef
+  45:63   warning  'started' is not defined            no-undef
+  45:72   warning  'limit' is not defined              no-undef
+  50:13   warning  'started' is not defined            no-undef
+  51:13   warning  'nuxtdis' is not defined            no-undef
+  56:17   warning  'refreshIntervalId' is not defined  no-undef
+  56:49   warning  'IDDFS' is not defined              no-undef
+  56:61   warning  'input' is not defined              no-undef
+  62:16   warning  'refreshIntervalId' is not defined  no-undef
+  63:23   warning  'refreshIntervalId' is not defined  no-undef
+  64:9    warning  'nuxtdis' is not defined            no-undef
+  70:9    warning  'started' is not defined            no-undef
+  76:9    warning  'isQuestion' is not defined         no-undef
+  76:23   warning  'isObservation' is not defined      no-undef
+  82:6    warning  'isObservation' is not defined      no-undef
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/js/graph.js
+    6:11  warning  'canvas' is not defined                            no-undef
+    7:7   warning  'input' is assigned a value but never used         no-unused-vars
+   17:5   warning  'parent' is assigned a value but never used        no-unused-vars
+   23:5   warning  'visited_edge' is assigned a value but never used  no-unused-vars
+   28:5   warning  'SN' is assigned a value but never used            no-unused-vars
+   53:9   warning  'y' is not defined                                 no-undef
+   54:9   warning  'v' is not defined                                 no-undef
+   54:21  warning  'y' is not defined                                 no-undef
+   55:9   warning  'v' is not defined                                 no-undef
+   56:24  warning  'y' is not defined                                 no-undef
+   67:7   warning  'v' is not defined                                 no-undef
+   72:20  warning  'v' is not defined                                 no-undef
+   74:37  warning  'v' is not defined                                 no-undef
+   75:34  warning  'v' is not defined                                 no-undef
+   76:23  warning  'v' is not defined                                 no-undef
+   78:56  warning  'v' is not defined                                 no-undef
+   79:23  warning  'v' is not defined                                 no-undef
+   79:39  warning  'v' is not defined                                 no-undef
+   85:2   warning  Unnecessary semicolon                              no-extra-semi
+   97:18  warning  'e' is defined but never used                      no-unused-vars
+  100:2   warning  Unnecessary semicolon                              no-extra-semi
+  108:2   warning  Unnecessary semicolon                              no-extra-semi
+  120:2   warning  Unnecessary semicolon                              no-extra-semi
+  122:10  warning  'removeEventListeners' is defined but never used   no-unused-vars
+  131:10  warning  'addEventListeners' is defined but never used      no-unused-vars
+  152:5   warning  'c' is not defined                                 no-undef
+  153:5   warning  'e' is not defined                                 no-undef
+  154:5   warning  'ep' is not defined                                no-undef
+  155:5   warning  'visit' is not defined                             no-undef
+  156:5   warning  'weight' is not defined                            no-undef
+  160:5   warning  'started' is not defined                           no-undef
+  161:5   warning  'isQuestion' is not defined                        no-undef
+  162:5   warning  'isObservation' is not defined                     no-undef
+  163:5   warning  'EndVect' is not defined                           no-undef
+  164:5   warning  'noEdges' is not defined                           no-undef
+  165:5   warning  'oneshotAuto' is not defined                       no-undef
+  166:9   warning  'refreshIntervalId' is not defined                 no-undef
+  166:50  warning  'refreshIntervalId' is not defined                 no-undef
+  167:5   warning  'refreshIntervalId' is not defined                 no-undef
+  177:5   warning  'edges_weight' is not defined                      no-undef
+  192:7   warning  'px' is already defined                            no-redeclare
+  193:7   warning  'py' is already defined                            no-redeclare
+  222:10  warning  'drawField' is defined but never used              no-unused-vars
+  255:31  warning  'edges_weight' is not defined                      no-undef
+  261:14  warning  'i' is already defined                             no-redeclare
+  270:22  warning  'k' is already defined                             no-redeclare
+  270:33  warning  'visit' is not defined                             no-undef
+  271:21  warning  'visit' is not defined                             no-undef
+  283:22  warning  'c' is not defined                                 no-undef
+  283:74  warning  'c' is not defined                                 no-undef
+  286:22  warning  'EndVect' is not defined                           no-undef
+  289:16  warning  'started' is not defined                           no-undef
+  289:43  warning  'limit' is not defined                             no-undef
+  296:22  warning  'k' is already defined                             no-redeclare
+  297:46  warning  'c' is not defined                                 no-undef
+  304:22  warning  'c' is not defined                                 no-undef
+  318:10  warning  'initIddfs' is defined but never used              no-unused-vars
+  319:5   warning  'maxDepth' is not defined                          no-undef
+  329:5   warning  'maxDepth' is not defined                          no-undef
+  329:25  warning  'maxDepth' is not defined                          no-undef
+  337:31  warning  'maxDepth' is not defined                          no-undef
+  358:9   warning  'used' is not defined                              no-undef
+  360:9   warning  'used' is not defined                              no-undef
+  363:5   warning  'used' is not defined                              no-undef
+  370:30  warning  'used' is not defined                              no-undef
+  371:17  warning  'used' is not defined                              no-undef
+  393:10  warning  'force' is defined but never used                  no-unused-vars
+  405:14  warning  'i' is already defined                             no-redeclare
+  407:22  warning  'j' is already defined                             no-redeclare
+  421:14  warning  'i' is already defined                             no-redeclare
+  429:14  warning  'i' is already defined                             no-redeclare
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/js/main.js
+   2:5   warning  'edges_weight' is assigned a value but never used   no-unused-vars
+   3:5   warning  'weight' is assigned a value but never used         no-unused-vars
+   9:5   warning  'c' is assigned a value but never used              no-unused-vars
+  13:5   warning  'nuxtdis' is assigned a value but never used        no-unused-vars
+  16:5   warning  'isObservation' is assigned a value but never used  no-unused-vars
+  28:9   warning  'NoQuestion' is not defined                         no-undef
+  29:9   warning  'addEventListeners' is not defined                  no-undef
+  34:10  warning  'IDDFS' is defined but never used                   no-unused-vars
+  36:8   warning  'isQuestion' is not defined                         no-undef
+  39:39  warning  'SN' is not defined                                 no-undef
+  47:13  warning  'vclear' is not defined                             no-undef
+  49:33  warning  'EN' is not defined                                 no-undef
+  50:28  warning  'SN' is not defined                                 no-undef
+  54:9   warning  'visited' is not defined                            no-undef
+  55:9   warning  'trav_circle' is not defined                        no-undef
+  58:20  warning  'edges' is not defined                              no-undef
+  59:32  warning  'edges' is not defined                              no-undef
+  60:22  warning  'visited' is not defined                            no-undef
+  60:48  warning  'exist' is not defined                              no-undef
+  74:19  warning  'visited' is not defined                            no-undef
+  75:5   warning  'trav_circle' is not defined                        no-undef
+  77:14  warning  'EN' is not defined                                 no-undef
+  84:10  warning  'NoQuestion' is not defined                         no-undef
+  87:20  warning  'chance' is not defined                             no-undef
+  88:13  warning  'isQuestion' is not defined                         no-undef
+  89:13  warning  'question' is not defined                           no-undef
+  93:16  warning  'edges' is not defined                              no-undef
+  94:28  warning  'edges' is not defined                              no-undef
+  95:18  warning  'visited' is not defined                            no-undef
+  95:44  warning  'exist' is not defined                              no-undef
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/js/mvcircle.js
+  25:5    warning  'ctx' is not defined                     no-undef
+  25:21   warning  'edgeD' is not defined                   no-undef
+  26:5    warning  'ctx' is not defined                     no-undef
+  27:5    warning  'ctx' is not defined                     no-undef
+  28:5    warning  'ctx' is not defined                     no-undef
+  28:135  warning  'nodeR' is not defined                   no-undef
+  29:5    warning  'ctx' is not defined                     no-undef
+  35:14   warning  'nuxtdis' is not defined                 no-undef
+  39:10   warning  'trav_circle' is defined but never used  no-unused-vars
+  46:12   warning  'nodes' is not defined                   no-undef
+  47:10   warning  'nodes' is not defined                   no-undef
+  48:12   warning  'nodes' is not defined                   no-undef
+  49:10   warning  'nodes' is not defined                   no-undef
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/js/preset.js
+   1:14  warning  'canv' is not defined                                no-undef
+   2:15  warning  'canv' is not defined                                no-undef
+   4:5   warning  'default_weight' is assigned a value but never used  no-unused-vars
+   9:14  warning  'canv' is not defined                                no-undef
+  10:15  warning  'canv' is not defined                                no-undef
+  13:5   warning  'cclear' is not defined                              no-undef
+  14:5   warning  'type' is not defined                                no-undef
+  15:10  warning  'i' is not defined                                   no-undef
+  15:17  warning  'i' is not defined                                   no-undef
+  15:27  warning  'i' is not defined                                   no-undef
+  16:14  warning  'j' is not defined                                   no-undef
+  16:21  warning  'j' is not defined                                   no-undef
+  16:37  warning  'i' is not defined                                   no-undef
+  16:41  warning  'j' is not defined                                   no-undef
+  16:45  warning  'j' is not defined                                   no-undef
+  17:13  warning  'nodes' is not defined                               no-undef
+  17:26  warning  'j' is not defined                                   no-undef
+  17:40  warning  'i' is not defined                                   no-undef
+  17:53  warning  'i' is not defined                                   no-undef
+  18:17  warning  'nodes' is not defined                               no-undef
+  19:17  warning  'edges' is not defined                               no-undef
+  19:33  warning  'nodes' is not defined                               no-undef
+  19:54  warning  'nodes' is not defined                               no-undef
+  20:17  warning  'edges_weight' is not defined                        no-undef
+  22:24  warning  'nodes' is not defined                               no-undef
+  23:17  warning  'edges' is not defined                               no-undef
+  23:41  warning  'nodes' is not defined                               no-undef
+  24:17  warning  'edges_weight' is not defined                        no-undef
+  24:36  warning  'edges_weight' is not defined                        no-undef
+  24:61  warning  'nodes' is not defined                               no-undef
+  24:82  warning  'nodes' is not defined                               no-undef
+  27:17  warning  'edges' is not defined                               no-undef
+  27:41  warning  'nodes' is not defined                               no-undef
+  27:65  warning  'nodes' is not defined                               no-undef
+  27:86  warning  'nodes' is not defined                               no-undef
+  28:17  warning  'edges_weight' is not defined                        no-undef
+  28:36  warning  'edges_weight' is not defined                        no-undef
+  28:61  warning  'nodes' is not defined                               no-undef
+  28:82  warning  'nodes' is not defined                               no-undef
+  35:10  warning  'n' is not defined                                   no-undef
+  35:17  warning  'n' is not defined                                   no-undef
+  35:22  warning  'nodes' is not defined                               no-undef
+  35:36  warning  'n' is not defined                                   no-undef
+  36:9   warning  'exist' is not defined                               no-undef
+  38:6   warning  'n' is not defined                                   no-undef
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/js/question.js
+   2:5   warning  'isQuestion' is assigned a value but never used  no-unused-vars
+   4:5   warning  'NoQuestion' is assigned a value but never used  no-unused-vars
+   5:5   warning  'chance' is assigned a value but never used      no-unused-vars
+  10:10  warning  'answer' is defined but never used               no-unused-vars
+  11:12  warning  'visit' is not defined                           no-undef
+  12:12  warning  'edges' is not defined                           no-undef
+  12:18  warning  'e' is not defined                               no-undef
+  13:7   warning  'edges' is not defined                           no-undef
+  13:13  warning  'e' is not defined                               no-undef
+  16:16  warning  'e' is not defined                               no-undef
+  27:10  warning  'question' is defined but never used             no-unused-vars
+  33:10  warning  'submit' is defined but never used               no-unused-vars
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/libs/d3.v3.js
+     1:1    warning  'd3' is not defined                                                        no-undef
+   258:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   375:18   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   384:27   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   409:12   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   562:14   warning  'Sizzle' is not defined                                                    no-undef
+   565:14   warning  'Sizzle' is not defined                                                    no-undef
+   565:32   warning  'Sizzle' is not defined                                                    no-undef
+   567:24   warning  'Sizzle' is not defined                                                    no-undef
+   580:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   600:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   628:26   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   676:27   warning  Unnecessary escape character: \^                                           no-useless-escape
+   676:29   warning  Unnecessary escape character: \$                                           no-useless-escape
+   676:31   warning  Unnecessary escape character: \*                                           no-useless-escape
+   676:33   warning  Unnecessary escape character: \+                                           no-useless-escape
+   676:35   warning  Unnecessary escape character: \?                                           no-useless-escape
+   676:37   warning  Unnecessary escape character: \|                                           no-useless-escape
+   676:39   warning  Unnecessary escape character: \[                                           no-useless-escape
+   676:43   warning  Unnecessary escape character: \(                                           no-useless-escape
+   676:45   warning  Unnecessary escape character: \)                                           no-useless-escape
+   676:47   warning  Unnecessary escape character: \.                                           no-useless-escape
+   676:49   warning  Unnecessary escape character: \{                                           no-useless-escape
+   676:51   warning  Unnecessary escape character: \}                                           no-useless-escape
+   681:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   713:11   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   822:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   843:15   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   929:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   983:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1028:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1068:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1084:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1220:11   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1424:9    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1632:185  warning  'XDomainRequest' is not defined                                            no-undef
+  1750:15   warning  'c' is already defined                                                     no-redeclare
+  1793:56   warning  Unnecessary escape character: \"                                           no-useless-escape
+  1923:6    warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2011:43   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2018:47   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2316:12   warning  Unexpected constant condition                                              no-constant-condition
+  2325:22   warning  'i' is already defined                                                     no-redeclare
+  2333:22   warning  'i' is already defined                                                     no-redeclare
+  2433:15   warning  'n' is already defined                                                     no-redeclare
+  2478:48   warning  Empty block statement                                                      no-empty
+  2686:13   warning  'b' is not defined                                                         no-undef
+  2688:19   warning  'b' is not defined                                                         no-undef
+  2688:41   warning  'b' is not defined                                                         no-undef
+  2690:19   warning  'b' is not defined                                                         no-undef
+  2690:42   warning  'b' is not defined                                                         no-undef
+  2692:17   warning  'b' is not defined                                                         no-undef
+  2849:18   warning  'φ00' is assigned a value but never used                                   no-unused-vars
+  3513:24   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3647:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4160:15   warning  'y' is already defined                                                     no-redeclare
+  4403:89   warning  Empty block statement                                                      no-empty
+  4432:12   warning  Unexpected constant condition                                              no-constant-condition
+  4499:9    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4766:17   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4767:43   warning  's1' is assigned a value but never used                                    no-unused-vars
+  5166:17   warning  'k' is already defined                                                     no-redeclare
+  5189:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5199:11   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5724:148  warning  'i' is already defined                                                     no-redeclare
+  6192:16   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  6371:9    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  6512:38   warning  'k' is already defined                                                     no-redeclare
+  6515:40   warning  Empty block statement                                                      no-empty
+  6516:55   warning  Empty block statement                                                      no-empty
+  7158:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7176:16   warning  'group' is already defined                                                 no-redeclare
+  7342:16   warning  'group' is already defined                                                 no-redeclare
+  7343:13   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7377:17   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  7983:15   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/libs/d3.v3.min.js
+  1:1097   warning  't' is assigned a value but never used                                     no-unused-vars
+  1:1873   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:3239   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:4978   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:8759   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:8968   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:10354  warning  'XDomainRequest' is not defined                                            no-undef
+  1:12869  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  1:12882  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  1:19700  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:22578  warning  'a' is already defined                                                     no-redeclare
+  1:22582  warning  'c' is already defined                                                     no-redeclare
+  1:22682  warning  'a' is already defined                                                     no-redeclare
+  1:22820  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:23440  warning  'r' is already defined                                                     no-redeclare
+  2:150    warning  'h' is assigned a value but never used                                     no-unused-vars
+  2:5737   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:8756   warning  's' is already defined                                                     no-redeclare
+  2:11547  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11728  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19863  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23586  warning  'h' is already defined                                                     no-redeclare
+  3:7183   warning  't' is assigned a value but never used                                     no-unused-vars
+  3:8878   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:10190  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  3:10319  warning  Unnecessary escape character: \^                                           no-useless-escape
+  3:10321  warning  Unnecessary escape character: \$                                           no-useless-escape
+  3:10323  warning  Unnecessary escape character: \*                                           no-useless-escape
+  3:10325  warning  Unnecessary escape character: \+                                           no-useless-escape
+  3:10327  warning  Unnecessary escape character: \?                                           no-useless-escape
+  3:10329  warning  Unnecessary escape character: \|                                           no-useless-escape
+  3:10331  warning  Unnecessary escape character: \[                                           no-useless-escape
+  3:10335  warning  Unnecessary escape character: \(                                           no-useless-escape
+  3:10337  warning  Unnecessary escape character: \)                                           no-useless-escape
+  3:10339  warning  Unnecessary escape character: \.                                           no-useless-escape
+  3:10341  warning  Unnecessary escape character: \{                                           no-useless-escape
+  3:10343  warning  Unnecessary escape character: \}                                           no-useless-escape
+  3:10688  warning  'Sizzle' is not defined                                                    no-undef
+  3:10713  warning  'Sizzle' is not defined                                                    no-undef
+  3:10723  warning  'Sizzle' is not defined                                                    no-undef
+  3:11004  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:11643  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  3:12044  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:13719  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:15750  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:19759  warning  'f' is already defined                                                     no-redeclare
+  3:27028  warning  Unnecessary escape character: \"                                           no-useless-escape
+  3:27666  warning  'r' is already defined                                                     no-redeclare
+  4:523    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  4:1878   warning  'm' is already defined                                                     no-redeclare
+  4:3017   warning  'e' is already defined                                                     no-redeclare
+  4:3028   warning  't' is already defined                                                     no-redeclare
+  4:3041   warning  'r' is already defined                                                     no-redeclare
+  4:3045   warning  'i' is already defined                                                     no-redeclare
+  4:6676   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15393  warning  'i' is assigned a value but never used                                     no-unused-vars
+  4:16997  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:20426  warning  'c' is already defined                                                     no-redeclare
+  4:27692  warning  'u' is already defined                                                     no-redeclare
+  4:31698  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:10176  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:10441  warning  'e' is already defined                                                     no-redeclare
+  5:13633  warning  't' is already defined                                                     no-redeclare
+  5:23444  warning  'define' is not defined                                                    no-undef
+  5:23467  warning  'define' is not defined                                                    no-undef
+  5:23504  warning  'module' is not defined                                                    no-undef
+  5:23519  warning  'module' is not defined                                                    no-undef
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/libs/jquery-1.10.2.js
+  4:468    warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:4722   warning  'ActiveXObject' is not defined                                             no-undef
+  4:7362   warning  Empty block statement                                                      no-empty
+  4:9718   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:9929   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:9944   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10421  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10648  warning  Empty block statement                                                      no-empty
+  4:11211  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:13042  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14331  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14888  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14926  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15330  warning  Empty block statement                                                      no-empty
+  4:15879  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:16183  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:17975  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:18213  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:18361  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:18699  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  4:19380  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:21795  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:21888  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:21948  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:23170  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:23762  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:23876  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:2243   warning  Empty block statement                                                      no-empty
+  5:4251   warning  Empty block statement                                                      no-empty
+  5:4569   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:4987   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:5389   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:7432   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:10569  warning  Empty block statement                                                      no-empty
+  5:13536  warning  Empty block statement                                                      no-empty
+  5:16138  warning  Empty block statement                                                      no-empty
+  5:20894  warning  Unnecessary escape character: \[                                           no-useless-escape
+  5:20896  warning  Unnecessary escape character: \.                                           no-useless-escape
+  5:27108  warning  Empty block statement                                                      no-empty
+  5:31631  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5:31758  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  6:3371   warning  Empty block statement                                                      no-empty
+  6:9303   warning  Unnecessary escape character: \/                                           no-useless-escape
+  6:9608   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  6:11680  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  6:13571  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  6:17526  warning  Empty block statement                                                      no-empty
+  6:17603  warning  Empty block statement                                                      no-empty
+  6:18235  warning  Empty block statement                                                      no-empty
+  6:19443  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  6:20291  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  6:28735  warning  'module' is not defined                                                    no-undef
+  6:28760  warning  'module' is not defined                                                    no-undef
+  6:28775  warning  'module' is not defined                                                    no-undef
+  6:28835  warning  'define' is not defined                                                    no-undef
+  6:28847  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/libs/jquery-ui.js
+      5:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    314:5   warning  'jQuery' is not defined                                                    no-undef
+    316:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    326:16  warning  Empty block statement                                                      no-empty
+    453:29  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    826:5   warning  'jQuery' is not defined                                                    no-undef
+    828:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    828:15  warning  'undefined' is defined but never used                                      no-unused-vars
+    983:4   warning  'jQuery' is not defined                                                    no-undef
+    985:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+    985:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   1927:4   warning  'jQuery' is not defined                                                    no-undef
+   1929:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   1929:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   2284:4   warning  'jQuery' is not defined                                                    no-undef
+   2286:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   2286:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   3238:4   warning  'jQuery' is not defined                                                    no-undef
+   3240:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   3240:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   3501:4   warning  'jQuery' is not defined                                                    no-undef
+   3503:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   3503:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   3997:95  warning  Unnecessary escape character: \-                                           no-useless-escape
+   4772:4   warning  'jQuery' is not defined                                                    no-undef
+   4774:14  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   4792:20  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   4797:20  warning  Unnecessary escape character: \-                                           no-useless-escape
+   4810:34  warning  Unnecessary escape character: \%                                           no-useless-escape
+   4810:58  warning  Unnecessary escape character: \%                                           no-useless-escape
+   4810:82  warning  Unnecessary escape character: \%                                           no-useless-escape
+   4840:56  warning  Unnecessary escape character: \%                                           no-useless-escape
+   4840:80  warning  Unnecessary escape character: \%                                           no-useless-escape
+   5373:22  warning  Empty block statement                                                      no-empty
+   5444:5   warning  'jQuery' is not defined                                                    no-undef
+   5468:4   warning  'jQuery' is not defined                                                    no-undef
+   6033:65  warning  Empty block statement                                                      no-empty
+   6052:4   warning  'jQuery' is not defined                                                    no-undef
+   6054:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   6054:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   6611:5   warning  'jQuery' is not defined                                                    no-undef
+   6613:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   6613:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   7166:26  warning  Unnecessary escape character: \-                                           no-useless-escape
+   7166:28  warning  Unnecessary escape character: \[                                           no-useless-escape
+   7166:43  warning  Unnecessary escape character: \^                                           no-useless-escape
+   7206:4   warning  'jQuery' is not defined                                                    no-undef
+   7208:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   7208:15  warning  'undefined' is defined but never used                                      no-unused-vars
+   7612:4   warning  'jQuery' is not defined                                                    no-undef
+   7614:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   7758:47  warning  Unnecessary escape character: \-                                           no-useless-escape
+   8272:16  warning  Empty block statement                                                      no-empty
+   8823:13  warning  Unexpected constant condition                                              no-constant-condition
+   9067:20  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9407:34  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9408:23  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9515:32  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9518:32  warning  Unnecessary escape character: \-                                           no-useless-escape
+   9638:4   warning  'jQuery' is not defined                                                    no-undef
+   9640:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+   9640:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10428:4   warning  'jQuery' is not defined                                                    no-undef
+  10430:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10430:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10498:4   warning  'jQuery' is not defined                                                    no-undef
+  10500:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10500:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10599:4   warning  'jQuery' is not defined                                                    no-undef
+  10601:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10601:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10654:4   warning  'jQuery' is not defined                                                    no-undef
+  10656:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10656:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10707:4   warning  'jQuery' is not defined                                                    no-undef
+  10709:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10709:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10792:4   warning  'jQuery' is not defined                                                    no-undef
+  10794:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10794:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10810:5   warning  'jQuery' is not defined                                                    no-undef
+  10812:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10812:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10874:4   warning  'jQuery' is not defined                                                    no-undef
+  10876:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10876:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10912:4   warning  'jQuery' is not defined                                                    no-undef
+  10914:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10914:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  10963:4   warning  'jQuery' is not defined                                                    no-undef
+  10965:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  10965:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  11269:4   warning  'jQuery' is not defined                                                    no-undef
+  11271:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  11271:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  11331:4   warning  'jQuery' is not defined                                                    no-undef
+  11333:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  11333:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  11383:4   warning  'jQuery' is not defined                                                    no-undef
+  11385:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  11385:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  11418:4   warning  'jQuery' is not defined                                                    no-undef
+  11420:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  11420:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  11586:28  warning  Unnecessary escape character: \-                                           no-useless-escape
+  11586:30  warning  Unnecessary escape character: \[                                           no-useless-escape
+  11586:45  warning  Unnecessary escape character: \^                                           no-useless-escape
+  11946:6   warning  Unexpected newline between object and [ of property access                 no-unexpected-multiline
+  11950:6   warning  Unexpected newline between object and [ of property access                 no-unexpected-multiline
+  11982:5   warning  Unexpected newline between object and [ of property access                 no-unexpected-multiline
+  12025:4   warning  'jQuery' is not defined                                                    no-undef
+  12027:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  12037:14  warning  Unnecessary escape character: \+                                           no-useless-escape
+  12037:16  warning  Unnecessary escape character: \-                                           no-useless-escape
+  12513:4   warning  'jQuery' is not defined                                                    no-undef
+  12515:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  12645:5   warning  'jQuery' is not defined                                                    no-undef
+  12647:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  12647:15  warning  'undefined' is defined but never used                                      no-unused-vars
+  13303:3   warning  'jQuery' is not defined                                                    no-undef
+  13691:5   warning  'Globalize' is not defined                                                 no-undef
+  13701:4   warning  'Globalize' is not defined                                                 no-undef
+  13782:4   warning  'jQuery' is not defined                                                    no-undef
+  13784:15  warning  Shadowing of global property 'undefined'                                   no-shadow-restricted-names
+  14070:45  warning  Unnecessary escape character: \/                                           no-useless-escape
+  14070:54  warning  Unnecessary escape character: \[                                           no-useless-escape
+  14070:58  warning  Unnecessary escape character: \^                                           no-useless-escape
+  14615:5   warning  'jQuery' is not defined                                                    no-undef
+  15003:4   warning  'jQuery' is not defined                                                    no-undef
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/libs/vis.anim.js
+    2:1   warning  'vis' is not defined                                no-undef
+    9:5   warning  'thisAnimator' is assigned a value but never used   no-unused-vars
+   96:13  warning  'reportedError' is assigned a value but never used  no-unused-vars
+  161:13  warning  'edgeTraffic' is assigned a value but never used    no-unused-vars
+  228:1   warning  'vis' is not defined                                no-undef
+  231:5   warning  'edgeTraffic' is not defined                        no-undef
+  232:10  warning  'edgeTraffic' is not defined                        no-undef
+  235:19  warning  'edgeTraffic' is not defined                        no-undef
+  239:12  warning  'edgeTraffic' is not defined                        no-undef
+  239:47  warning  'edgeTraffic' is not defined                        no-undef
+  243:25  warning  'edgeTraffic' is not defined                        no-undef
+  248:1   warning  'vis' is not defined                                no-undef
+  251:5   warning  'edgeTraffic' is not defined                        no-undef
+  252:10  warning  'edgeTraffic' is not defined                        no-undef
+  255:21  warning  'edgeTraffic' is not defined                        no-undef
+  259:14  warning  'edgeTraffic' is not defined                        no-undef
+  259:50  warning  'edgeTraffic' is not defined                        no-undef
+  262:25  warning  'edgeTraffic' is not defined                        no-undef
+
+/home/runner/work/exp-iterative-deepening-dfs-iiith/exp-iterative-deepening-dfs-iiith/experiment/simulation/libs/vis.min.js
+  25:79     warning  'module' is not defined                                                          no-undef
+  25:125    warning  'define' is not defined                                                          no-undef
+  25:136    warning  'define' is not defined                                                          no-undef
+  25:174    warning  'exports' is not defined                                                         no-undef
+  25:706    warning  'i' is defined but never used                                                    no-unused-vars
+  25:1995   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:2317   warning  'e' is defined but never used                                                    no-unused-vars
+  25:2392   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:2464   warning  'i' is defined but never used                                                    no-unused-vars
+  25:2654   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:2921   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:3382   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:3819   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:5813   warning  Unnecessary escape character: \-                                                 no-useless-escape
+  25:6962   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:7042   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:10835  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:11820  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:12118  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:12884  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:13252  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:15359  warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  25:16806  warning  'e' is defined but never used                                                    no-unused-vars
+  25:16866  warning  '__e' is not defined                                                             no-undef
+  25:17105  warning  'e' is defined but never used                                                    no-unused-vars
+  25:19582  warning  't' is defined but never used                                                    no-unused-vars
+  25:21839  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:25936  warning  't' is defined but never used                                                    no-unused-vars
+  25:27984  warning  'i' is defined but never used                                                    no-unused-vars
+  25:28034  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:28144  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:28438  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:28779  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  25:30630  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  26:1449   warning  Unnecessary escape character: \"                                                 no-useless-escape
+  26:1493   warning  Unnecessary escape character: \,                                                 no-useless-escape
+  26:1958   warning  't' is defined but never used                                                    no-unused-vars
+  26:1960   warning  'e' is defined but never used                                                    no-unused-vars
+  26:3141   warning  'e' is defined but never used                                                    no-unused-vars
+  26:3309   warning  '__g' is not defined                                                             no-undef
+  26:3544   warning  Empty block statement                                                            no-empty
+  26:3779   warning  'e' is defined but never used                                                    no-unused-vars
+  26:9402   warning  'e' is defined but never used                                                    no-unused-vars
+  26:9872   warning  Unsafe usage of ThrowStatement                                                   no-unsafe-finally
+  26:10074  warning  'e' is defined but never used                                                    no-unused-vars
+  26:10102  warning  'e' is defined but never used                                                    no-unused-vars
+  26:10282  warning  'e' is defined but never used                                                    no-unused-vars
+  26:10284  warning  'i' is defined but never used                                                    no-unused-vars
+  26:10831  warning  'i' is defined but never used                                                    no-unused-vars
+  26:12554  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  26:12629  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  26:13420  warning  'i' is defined but never used                                                    no-unused-vars
+  26:19319  warning  'i' is defined but never used                                                    no-unused-vars
+  26:20911  warning  't' is defined but never used                                                    no-unused-vars
+  26:27022  warning  'e' is defined but never used                                                    no-unused-vars
+  26:27132  warning  'e' is defined but never used                                                    no-unused-vars
+  26:27375  warning  'e' is defined but never used                                                    no-unused-vars
+  26:27377  warning  'i' is defined but never used                                                    no-unused-vars
+  26:28915  warning  'e' is defined but never used                                                    no-unused-vars
+  27:8891   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  27:19857  warning  'e' is defined but never used                                                    no-unused-vars
+  27:19942  warning  'e' is defined but never used                                                    no-unused-vars
+  27:20046  warning  'e' is defined but never used                                                    no-unused-vars
+  27:20662  warning  Unnecessary escape character: \/                                                 no-useless-escape
+  27:20883  warning  'e' is defined but never used                                                    no-unused-vars
+  27:21208  warning  'e' is defined but never used                                                    no-unused-vars
+  28:9801   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  28:20571  warning  't' is defined but never used                                                    no-unused-vars
+  28:20682  warning  't' is defined but never used                                                    no-unused-vars
+  28:23448  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  28:23481  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  28:23538  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  28:23573  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  28:23610  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  28:30517  warning  Expected a 'break' statement before 'default'                                    no-fallthrough
+  29:13097  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  29:15713  warning  'i' is defined but never used                                                    no-unused-vars
+  29:23239  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  29:26202  warning  Empty block statement                                                            no-empty
+  29:29678  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  29:31876  warning  't' is defined but never used                                                    no-unused-vars
+  29:31878  warning  'e' is defined but never used                                                    no-unused-vars
+  30:14097  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  30:17817  warning  Do not access Object.prototype method 'propertyIsEnumerable' from target object  no-prototype-builtins
+  30:19961  warning  Empty block statement                                                            no-empty
+  30:20615  warning  Empty block statement                                                            no-empty
+  30:20728  warning  'e' is defined but never used                                                    no-unused-vars
+  30:20730  warning  'i' is defined but never used                                                    no-unused-vars
+  30:25428  warning  't' is defined but never used                                                    no-unused-vars
+  30:25624  warning  'e' is defined but never used                                                    no-unused-vars
+  30:25626  warning  'i' is defined but never used                                                    no-unused-vars
+  30:27090  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  31:4773   warning  'i' is defined but never used                                                    no-unused-vars
+  31:5368   warning  'i' is defined but never used                                                    no-unused-vars
+  31:6362   warning  'o' is defined but never used                                                    no-unused-vars
+  31:6404   warning  'o' is defined but never used                                                    no-unused-vars
+  31:6449   warning  'o' is defined but never used                                                    no-unused-vars
+  31:6866   warning  'o' is defined but never used                                                    no-unused-vars
+  31:6917   warning  'o' is defined but never used                                                    no-unused-vars
+  31:13486  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  31:15776  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  31:15996  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  31:19272  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:463    warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:1093   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:1860   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:2221   warning  'i' is defined but never used                                                    no-unused-vars
+  32:2523   warning  'n' is already defined                                                           no-redeclare
+  32:3383   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:3615   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:4006   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:4095   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:16756  warning  't' is defined but never used                                                    no-unused-vars
+  32:19058  warning  'i' is defined but never used                                                    no-unused-vars
+  32:25202  warning  'o' is defined but never used                                                    no-unused-vars
+  32:25244  warning  'o' is defined but never used                                                    no-unused-vars
+  32:25289  warning  'o' is defined but never used                                                    no-unused-vars
+  32:25353  warning  'o' is defined but never used                                                    no-unused-vars
+  32:25401  warning  'o' is defined but never used                                                    no-unused-vars
+  32:25452  warning  'o' is defined but never used                                                    no-unused-vars
+  32:28220  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:30109  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:30432  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:31448  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:31534  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:31822  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  32:31846  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:79     warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:101    warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:157    warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:205    warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:1808   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:3460   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:3672   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:3954   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:4041   warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  33:6162   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:9300   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:9412   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:9522   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:12094  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:18043  warning  'e' is defined but never used                                                    no-unused-vars
+  33:18045  warning  'i' is defined but never used                                                    no-unused-vars
+  33:24345  warning  't' is defined but never used                                                    no-unused-vars
+  33:24347  warning  'e' is defined but never used                                                    no-unused-vars
+  33:28221  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  33:28527  warning  't' is defined but never used                                                    no-unused-vars
+  33:28529  warning  'e' is defined but never used                                                    no-unused-vars
+  34:1667   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  34:1834   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  34:5578   warning  'i' is defined but never used                                                    no-unused-vars
+  34:11156  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  34:15061  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  34:16506  warning  'i' is defined but never used                                                    no-unused-vars
+  34:21449  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  34:21613  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  34:21716  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  34:21767  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  34:28887  warning  'o' is defined but never used                                                    no-unused-vars
+  34:28889  warning  'n' is defined but never used                                                    no-unused-vars
+  34:31127  warning  'i' is defined but never used                                                    no-unused-vars
+  34:31129  warning  'o' is defined but never used                                                    no-unused-vars
+  35:183    warning  'h' is defined but never used                                                    no-unused-vars
+  35:9667   warning  'i' is defined but never used                                                    no-unused-vars
+  35:22292  warning  'e' is defined but never used                                                    no-unused-vars
+  35:22330  warning  'e' is defined but never used                                                    no-unused-vars
+  35:22395  warning  'e' is defined but never used                                                    no-unused-vars
+  35:28842  warning  't' is defined but never used                                                    no-unused-vars
+  35:28844  warning  'e' is defined but never used                                                    no-unused-vars
+  35:29335  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  36:2780   warning  'o' is defined but never used                                                    no-unused-vars
+  36:2947   warning  Unnecessary escape character: \[                                                 no-useless-escape
+  36:3038   warning  Unnecessary escape character: \/                                                 no-useless-escape
+  36:13505  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  36:13792  warning  Empty block statement                                                            no-empty
+  36:14860  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  36:23432  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  36:23549  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  36:28170  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  36:28209  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  36:28269  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  36:28296  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  36:28325  warning  Expected a 'break' statement before 'case'                                       no-fallthrough
+  37:3199   warning  Unnecessary escape character: \[                                                 no-useless-escape
+  37:3385   warning  Unnecessary escape character: \[                                                 no-useless-escape
+  37:3767   warning  Unnecessary escape character: \/                                                 no-useless-escape
+  37:5095   warning  Unnecessary escape character: \[                                                 no-useless-escape
+  37:7069   warning  'i' is defined but never used                                                    no-unused-vars
+  37:7495   warning  'i' is defined but never used                                                    no-unused-vars
+  37:7584   warning  'i' is defined but never used                                                    no-unused-vars
+  37:8071   warning  Unnecessary escape character: \+                                                 no-useless-escape
+  37:8073   warning  Unnecessary escape character: \-                                                 no-useless-escape
+  37:8216   warning  Unnecessary escape character: \+                                                 no-useless-escape
+  37:8218   warning  Unnecessary escape character: \-                                                 no-useless-escape
+  37:8884   warning  Unnecessary escape character: \-                                                 no-useless-escape
+  37:10299  warning  Unnecessary escape character: \+                                                 no-useless-escape
+  37:10301  warning  Unnecessary escape character: \-                                                 no-useless-escape
+  37:10352  warning  Unnecessary escape character: \-                                                 no-useless-escape
+  37:10378  warning  Unnecessary escape character: \:                                                 no-useless-escape
+  37:10388  warning  Unnecessary escape character: \:                                                 no-useless-escape
+  37:16854  warning  'e' is defined but never used                                                    no-unused-vars
+  37:17156  warning  'e' is defined but never used                                                    no-unused-vars
+  37:19094  warning  'e' is defined but never used                                                    no-unused-vars
+  37:19585  warning  't' is defined but never used                                                    no-unused-vars
+  38:15228  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  38:15878  warning  'e' is defined but never used                                                    no-unused-vars
+  38:16233  warning  'e' is defined but never used                                                    no-unused-vars
+  38:16557  warning  'i' is defined but never used                                                    no-unused-vars
+  38:19797  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  38:19990  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  38:23326  warning  'e' is defined but never used                                                    no-unused-vars
+  38:23328  warning  'i' is defined but never used                                                    no-unused-vars
+  38:23888  warning  'i' is defined but never used                                                    no-unused-vars
+  38:24498  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  38:25852  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  38:26040  warning  Unnecessary escape character: \(                                                 no-useless-escape
+  39:1787   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  39:7344   warning  't' is defined but never used                                                    no-unused-vars
+  39:12584  warning  Expected a conditional expression and instead saw an assignment                  no-cond-assign
+  40:948    warning  Empty block statement                                                            no-empty
+  40:1179   warning  Empty block statement                                                            no-empty
+  40:8742   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  40:14839  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  40:14979  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  40:17294  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  40:17384  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  40:17558  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  40:17715  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  40:23032  warning  't' is defined but never used                                                    no-unused-vars
+  40:23034  warning  'e' is defined but never used                                                    no-unused-vars
+  40:23036  warning  'i' is defined but never used                                                    no-unused-vars
+  40:25924  warning  'i' is defined but never used                                                    no-unused-vars
+  41:3221   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  41:6365   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  41:6481   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  41:6639   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  41:9254   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  41:10689  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  41:14760  warning  Unnecessary escape character: \_                                                 no-useless-escape
+  41:15062  warning  Unnecessary escape character: \_                                                 no-useless-escape
+  41:22393  warning  'e' is defined but never used                                                    no-unused-vars
+  41:22898  warning  't' is defined but never used                                                    no-unused-vars
+  41:24100  warning  'e' is defined but never used                                                    no-unused-vars
+  41:26342  warning  'e' is defined but never used                                                    no-unused-vars
+  41:30293  warning  't' is defined but never used                                                    no-unused-vars
+  42:5852   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:6783   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:6909   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:9059   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:9110   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:25637  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:25750  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:26776  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:27909  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  42:28103  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:6824   warning  'l' is already defined                                                           no-redeclare
+  43:8340   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:9675   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:10000  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:10085  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:12262  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:12374  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:12617  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:13297  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:13551  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:16353  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:16497  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:17088  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  43:24457  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:3092   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:12567  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:20670  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:28110  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:28228  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:28440  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:28582  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:28741  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:28910  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:29064  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:29151  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:29294  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:29385  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:29531  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:30663  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:30874  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:31546  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  44:31757  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:997    warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:1033   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:1148   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:1184   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:3276   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:3368   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:3541   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:10180  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:10703  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:11011  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:11491  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:14047  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:15864  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  45:17550  warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  46:6356   warning  Do not access Object.prototype method 'hasOwnProperty' from target object        no-prototype-builtins
+  46:7682   warning  't' is defined but never used                                                    no-unused-vars
+
+✖ 853 problems (0 errors, 853 warnings)
+  0 errors and 4 warnings potentially fixable with the `--fix` option.
+
